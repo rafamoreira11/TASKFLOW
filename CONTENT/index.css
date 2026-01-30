@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(243, 244, 246);
+}
+
+.header-logo{
+    height: 20%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 15vh;
+}
+
+.name-logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 15vh;
+}
+
+#check-logo-icon{
+    color: rgb(37, 99, 235);
+    font-size: 40pt;
+}
+
+.name-logo-text{
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 30pt;
+}
+
+main{
+    width: 30%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-title-text{
+    font-family: "Lato", sans-serif;
+    font-weight: 700 ;
+    opacity: 0.8;
+}
+
+form{
+    padding: 20px 0 20px 0;
+    width: 90%;
+}
+
+.email-label{
+    opacity: 0.8;
+    font-size: 14pt;
+    width: 100%;
+}
+
+.password-label{
+    opacity: 0.8;
+    font-size: 14pt;
+    width: 100%;
+    margin: 20px 0 50px 0;
+}
+
+input{
+    font-size: 12pt;
+    font-weight: 100;
+    padding-left: 5px;
+    width: 100%;
+    height: 5vh;
+}
+
+.register-footer{
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+}
+
+.register-footer-link{
+    font-size: 14pt;
+    cursor: pointer;
+}
